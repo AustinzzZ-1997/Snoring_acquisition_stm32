@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\STM32F4xx_StdPeriph_Driver\inc -I ..\SYSTEM -I ..\USER -I ..\HARDWARE\inc -I ..\FATFS\ff13c\source -I ..\APP
+-I.\RTE\_STM32F405RG
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-ID:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o .\objects\cutwav.o --omf_browse .\objects\cutwav.crf --depend .\objects\cutwav.d "..\APP\cutwav.c"
